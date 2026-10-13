@@ -1,0 +1,31 @@
+# Environment & secrets
+.env
+.env.local
+*.secret
+*.key
+
+# IDE & OS
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+*.log
+tmp/
+temp/
+*.tmp
+
+# Build artifacts
+dist/
+build/
+node_modules/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Skills-specific
+skills/**/*.local.md
